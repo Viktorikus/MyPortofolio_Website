@@ -1,0 +1,25 @@
+.footer {
+    background-color: var(--footer-bg);
+    color: var(--footer-text);
+    padding: 2rem 0;
+    /* margin-top: 3rem; */
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2rem;
+    text-align: center;
+  }
+  
+  /* Dark Mode Variants */
+  .dark .footer {
+    background-color: var(--dark-footer-bg);
+    color: var(--dark-footer-text);
+  }
+  
+  @media (max-width: 768px) {
+    .footer {
+      padding: 1.5rem 0;
+    }
+  }

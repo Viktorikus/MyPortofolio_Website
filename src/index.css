@@ -1,0 +1,52 @@
+:root {
+  /* Light Theme */
+  --primary-color: #4a6fa5;
+  --text-color: #333;
+  --secondary-text: #666;
+  --bg-color: #f8f9fa;
+  --card-bg: #ffffff;
+  --header-bg: #ffffff;
+  --footer-bg: #2d3748;
+  --footer-text: #ffffff;
+  --nav-bg: #ffffff;
+  --nav-text: #4a5568;
+  --nav-hover: #edf2f7;
+  --progress-bg: #e2e8f0;
+
+  /* Dark Theme */
+  --dark-primary: #6d9eeb;
+  --dark-text-color: #f0f0f0;
+  --dark-secondary-text: #ccc;
+  --dark-bg-color: #1a1a1a;
+  --dark-card-bg: #2d2d2d;
+  --dark-header-bg: #2d2d2d;
+  --dark-footer-bg: #1a202c;
+  --dark-footer-text: #e2e8f0;
+  --dark-nav-bg: #2d2d2d;
+  --dark-nav-text: #e2e8f0;
+  --dark-nav-hover: #4a5568;
+  --dark-progress-bg: #4a5568;
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  transition: background-color 0.3s, color 0.3s;
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.dark {
+  --text-color: var(--dark-text-color);
+  --secondary-text: var(--dark-secondary-text);
+  --bg-color: var(--dark-bg-color);
+  --card-bg: var(--dark-card-bg);
+  --header-bg: var(--dark-header-bg);
+  --footer-bg: var(--dark-footer-bg);
+  --footer-text: var(--dark-footer-text);
+  --nav-bg: var(--dark-nav-bg);
+  --nav-text: var(--dark-nav-text);
+  --nav-hover: var(--dark-nav-hover);
+  --progress-bg: var(--dark-progress-bg);
+  --primary-color: var(--dark-primary);
+}

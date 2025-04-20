@@ -1,0 +1,37 @@
+.about {
+    padding: 2rem;
+    width: 100%;
+    background-color: var(--bg-color);
+    color: var(--text-color)
+  }
+.aboutWrapper {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.about h2 {
+  color: var(--text-color)
+}
+  
+  .education {
+      margin-bottom: 2rem;
+  }
+    
+  .skillsGrid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+      gap: 1.5rem;
+      margin-top: 1rem;
+  }
+    
+  @media (max-width: 768px) {
+    .skillsGrid {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  .dark .about {
+    color: var(--dark-text-color);
+  }
+
+  

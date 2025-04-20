@@ -1,0 +1,48 @@
+.skill {
+    margin-bottom: 1.5rem;
+  }
+  
+  .skillInfo {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.5rem;
+  }
+  
+  .skillName {
+    font-weight: 500;
+    color: var(--text-color);
+  }
+  
+  .skillLevel {
+    color: var(--secondary-text);
+    font-size: 0.9rem;
+  }
+  
+  .progressBar {
+    height: 8px;
+    background-color: var(--progress-bg);
+    border-radius: 4px;
+    overflow: hidden;
+  }
+  
+  .progress {
+    height: 100%;
+    background-color: var(--primary-color);
+    border-radius: 4px;
+    transition: width 0.5s ease;
+  }
+  
+  /* Dark Mode */
+  .dark .skillName {
+    color: var(--dark-text-color);
+  }
+  
+  .dark .progressBar {
+    background-color: var(--dark-progress-bg);
+  }
+  
+  @media (max-width: 480px) {
+    .skill {
+      margin-bottom: 1rem;
+    }
+  }
