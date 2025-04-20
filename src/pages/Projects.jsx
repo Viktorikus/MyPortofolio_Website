@@ -1,5 +1,8 @@
 import styles from '../assets/styles/Projects.module.css';
 import ProjectCard from '../components/ProjectCard';
+import WebProject from '../assets/images/web.png';
+import TrainProject from '../assets/images/train.jpeg';
+
 
 const Projects = () => {
   const projects = [
@@ -8,14 +11,14 @@ const Projects = () => {
       title: "Portofolio Website",
       description: "A minimalist dark/light theme portfolio with responsive layout.",
       technologies: ["React", "Node.js", "HTML", "CSS"],
-      image: "/src/assets/images/web.png"
+      image: WebProject
     },
     {
       id: 2,
       title: "Automatic Railway Crossing Gate",
       description: "Productivity app for team collaboration",
       technologies: ["Arduino", "Blynk", "C/C++"],
-      image: "/src/assets/images/train.jpeg"
+      image: TrainProject
     }
   ];
 
