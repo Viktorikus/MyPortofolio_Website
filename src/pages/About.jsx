@@ -3,7 +3,7 @@ import SkillItem from '../components/SkillItem';
 
 const About = () => {
   const skills = [
-    { name: 'HTML', level: 90 },
+    { name: 'HTML', level: 50 },
     { name: 'CSS', level: 70 },
     { name: 'JavaScript', level: 30 },
     { name: 'React', level: 20 }
